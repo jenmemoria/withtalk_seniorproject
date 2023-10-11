@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/withtalk" />
+
+    <EditText
+        android:id="@+id/loginActivity_edittext_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일"
+        android:minHeight="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"/>
+
+    <EditText
+        android:id="@+id/loginActivity_edittext_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="패스워드"
+        android:minHeight="48dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"/>
+
+    <android.widget.Button
+
+        android:id="@+id/loginActivity_button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="65dp"
+        android:backgroundTint="#8FB8CB"
+        android:textColor="#ffffff"
+        android:padding="15dp"
+        android:text="로그인" />
+
+    <android.widget.Button
+        android:layout_marginTop="20dp"
+        android:text="회원가입"
+        android:textColor="#ffffff"
+        android:id="@+id/loginActivity_button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:backgroundTint="#8FB8CB"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp" />
+
+</LinearLayout>

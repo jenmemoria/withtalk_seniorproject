@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "814651714498",
+    "firebase_url": "https://withtalk-c8ecf-default-rtdb.firebaseio.com",
+    "project_id": "withtalk-c8ecf",
+    "storage_bucket": "withtalk-c8ecf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814651714498:android:8c23366b2be15ffc1b045b",
+        "android_client_info": {
+          "package_name": "com.example.withtalk2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814651714498-9nl32piu21jidvhkl9k5a2k7t91gjiem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYf1alF4cz0UDBf2oBbaGDuJmfUDo_hJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814651714498-9nl32piu21jidvhkl9k5a2k7t91gjiem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
